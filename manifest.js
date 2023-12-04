@@ -9,7 +9,7 @@ const manifest = {
   name: packageJson.name,
   version: packageJson.version,
   description: packageJson.description,
-  permissions: ['tabs', 'cookies', 'scripting', '*://*/*', 'activeTab'],
+  permissions: ['tabs', 'scripting', '*://*/*', 'activeTab'],
   action: {
     default_popup: 'src/pages/popup/index.html',
     default_icon: 'icon128.png',
